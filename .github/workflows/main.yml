@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: Install packages and test
         run: |
-          sudo apt install node
+          sudo apt install nodejs
           npm install
           npm run test
