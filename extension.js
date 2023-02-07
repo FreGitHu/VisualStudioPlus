@@ -23,7 +23,8 @@ function BreakMode() {
 		<title>Break Mode!</title>
 	</head>
 	<body>
-		<h1>Test!</h1>
+		<h1>Break Mode</h1>
+		<p>Please select a game to play.</p>
 	</body>
 	</html>`
 	panel.webview.html = html
