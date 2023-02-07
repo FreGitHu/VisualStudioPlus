@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+    - main
+    
+jobs:
+  test:
+    name: test the vs code extension
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install packages and test
+        run: |
+          sudo apt install nodejs
+          npm install
+          npm run test
