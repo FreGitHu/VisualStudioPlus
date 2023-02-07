@@ -9,11 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:toggleVSPlus"
-  ],
+  "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "visual-studio-plus.breakMode",
+        "title": "Enter break mode!"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
